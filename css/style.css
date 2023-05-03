@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 :root {
   --background-color: #ffffff;
   --text-color: #2e2f42;
@@ -14,6 +22,8 @@ body {
 }
 .link {
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -29,6 +39,9 @@ body {
 }
 .logo-studio-footer {
   color: #f4f4fd;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
 }
 .menu-link {
   font-weight: 500;
@@ -47,10 +60,14 @@ body {
 .page-nav {
   display: flex;
   align-items: center;
+  padding-left: 141px;
+  padding-right: 141px;
 }
 .menu {
   display: flex;
+  margin-left: 61px;
 }
+
 .menu-address {
   display: flex;
 }
@@ -72,6 +89,7 @@ body {
 .address-mail-tel {
   font-style: normal;
   display: flex;
+  margin-left: auto;
 }
 
 .address {
@@ -111,6 +129,7 @@ body {
 
   /* Inside auto layout */
 }
+
 .button-on-hero {
   padding: 16px 32px;
   font-family: 'Roboto', sans-serif;
@@ -122,8 +141,9 @@ body {
   cursor: pointer;
   align-items: center;
   letter-spacing: 0.04em;
-
-  /* WHITE */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 
   color: #ffffff;
 
@@ -136,6 +156,9 @@ body {
   background-color: #404bbf;
 }
 .main-title {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -143,8 +166,9 @@ body {
   /* or 107% */
   /* WHITE */
   color: #ffffff;
-  text-align: center;
+
   letter-spacing: 0.02em;
+  margin-top: 0;
 }
 .subtitle {
   font-style: normal;
@@ -176,7 +200,10 @@ body {
   background: var(--text-color);
 }
 .hero {
+  display: block;
   background: var(--text-color);
+  text-align: center;
+  padding: 188px 0;
 }
 .background-four-section {
   background-color: #f4f4fd;
@@ -184,4 +211,12 @@ body {
 
 .background-four-one {
   background-color: #ffffff;
+}
+
+.container {
+  min-width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
