@@ -1,0 +1,187 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #2e2f42;
+  --color-brand: #4d5ae5;
+  --main-color: #434455;
+}
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--main-color);
+  background-color: var(--background-color);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-brand);
+}
+.logo-studio {
+  color: var(--text-color);
+}
+.logo-studio-footer {
+  color: #f4f4fd;
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  /* NAVY BLUE */
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.menu-address {
+  display: flex;
+}
+.modal-open-btn {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-brand);
+  cursor: pointer;
+  font-weight: 500;
+  background-color: #f4f4fd;
+  /* CORNFLOWER */
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.address-mail-tel {
+  font-style: normal;
+  display: flex;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+
+.address:hover,
+.address:focus {
+  color: #404bbf;
+}
+.text-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-color);
+  letter-spacing: 0.02em;
+}
+.modal-open-btn:hover,
+.modal-open-btn:focus {
+  /* Auto layout */
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 24px;
+
+  /* OCEAN */
+
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  /* Inside auto layout */
+}
+.button-on-hero {
+  padding: 16px 32px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  /* identical to box height, or 150% */
+  cursor: pointer;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  /* WHITE */
+
+  color: #ffffff;
+
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-on-hero:hover,
+.button-on-hero:focus {
+  background-color: #404bbf;
+}
+.main-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  /* or 107% */
+  /* WHITE */
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+  color: var(--text-color);
+}
+.section-title {
+  /* Header 2 */
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+  color: var(--text-color);
+}
+.footer {
+  background: var(--text-color);
+}
+.hero {
+  background: var(--text-color);
+}
+.background-four-section {
+  background-color: #f4f4fd;
+}
+
+.background-four-one {
+  background-color: #ffffff;
+}
