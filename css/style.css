@@ -20,6 +20,9 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+button {
+  cursor: pointer;
+}
 
 ul,
 ol {
@@ -94,7 +97,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--color-brand);
-  cursor: pointer;
   font-weight: 500;
   background-color: #f4f4fd;
   flex-basis: calc((100%-96px) / 5);
@@ -282,4 +284,18 @@ footer p {
   margin-bottom: 72px;
   column-gap: 24px;
   justify-content: center;
+}
+.portfolio-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.title-description-cards {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.section-page-portfolio {
+  margin-bottom: 120px;
 }
