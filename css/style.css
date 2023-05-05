@@ -137,7 +137,7 @@ body {
   /* Auto layout */
   color: #ffffff;
   display: flex;
-
+  border: 1px solid transparent;
   padding: 12px 24px;
 
   /* OCEAN */
