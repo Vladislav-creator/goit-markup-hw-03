@@ -55,7 +55,7 @@ body {
   text-transform: uppercase;
   color: var(--color-brand);
   margin-right: 76px;
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .logo-studio {
   color: var(--text-color);
