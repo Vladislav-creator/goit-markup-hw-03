@@ -220,7 +220,7 @@ body {
 }
 .footer {
   background: var(--text-color);
-  padding: 100px;
+  padding: 100px 0;
 }
 .footer-text-content {
   width: 264px;
@@ -244,7 +244,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .employees-text-content {
-  padding: 32px;
+  padding: 32px 16px;
   text-align: center;
 }
 .employees-list-position {
