@@ -222,9 +222,7 @@ body {
   background: var(--text-color);
   padding: 100px 0;
 }
-.footer-text-content {
-  width: 264px;
-}
+
 .hero-section {
   display: block;
   background: var(--text-color);
@@ -247,10 +245,6 @@ body {
   padding: 32px 16px;
   text-align: center;
 }
-.employees-list-position {
-  margin-top: 16px;
-}
-
 .container {
   width: 1158px;
   margin-left: auto;
@@ -306,4 +300,11 @@ footer p {
 }
 .third-section {
   padding-bottom: 120px;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.paragraf-footer {
+  max-width: 264px;
 }
