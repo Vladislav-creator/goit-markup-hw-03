@@ -1,12 +1,6 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
 :root {
+  --main-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
   --background-color: #ffffff;
   --text-color: #2e2f42;
   --color-brand: #4d5ae5;
@@ -36,7 +30,7 @@ img {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: var(--main-font-family);
   color: var(--main-color);
   background-color: var(--background-color);
 }
@@ -47,7 +41,7 @@ body {
   text-decoration: none;
 }
 .logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -93,7 +87,7 @@ body {
 }
 .modal-open-btn {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font-family);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -151,14 +145,13 @@ body {
 
 .button-on-hero {
   padding: 16px 32px;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   /* identical to box height, or 150% */
-  cursor: pointer;
-  align-items: center;
+
   letter-spacing: 0.04em;
   margin-left: auto;
   margin-right: auto;
@@ -190,6 +183,7 @@ body {
 
   letter-spacing: 0.02em;
   margin-top: 0;
+  margin-bottom: 48px;
 }
 .subtitle {
   font-style: normal;
